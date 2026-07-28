@@ -6,6 +6,7 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "allowSyntheticDefaultImports": true,
+    "types": ["node", "jest"],
     "target": "ES2021",
     "jsx": "react-jsx",
     "sourceMap": true,
@@ -30,6 +31,7 @@
     "dist",
     "coverage",
     "beleqet-jobs-nextjs",
-    "frontend"
+    "frontend",
+    "src/**/frontend"
   ]
 }
